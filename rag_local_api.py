@@ -74,7 +74,7 @@ def ask(body: AskIn):
 
     messages = [
         {"role": "system", "content": "Piszesz po polsku. Korzystaj z KONTEKSTU do zrozumienia tematu, a potem uzupelniaj swoją wiedzą z danych treningowych." 
-                                      "Jeśli czegoś nie jesteś pewien, ale masz pomysł to oznacz to jako HIPOTEZA."},
+                                      "Jeśli czegoś nie jesteś pewien, ale masz pomysł to oznacz to jako HIPOTEZA. W odpowiedzi NIE używaj znaków specjalnych, np. *, _, ~, `, itp. Formatuj tekst jako zwykły ciąg znaków, bez wyróżnień i dodatkowych symboli."},
         {"role": "user",
          "content": f"Pytanie: {body.query}\n\nKONTEKST:\n{context}"}
     ]

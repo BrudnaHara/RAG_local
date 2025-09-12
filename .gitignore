@@ -10,3 +10,9 @@ __pycache__/
 # artefakty lokalne
 index/
 data/
+.env
+index/
+logs/
+.pids/
+__pycache__/
+*.pyc
