@@ -24,9 +24,6 @@ Lokalny RAG (Retrieval-Augmented Generation) z wykorzystaniem Chroma (wektory) +
 ## Instalacja
 
 git clone https://github.com/BrudnaHara/RAG_local.git
-cd RAG_local
-python3 -m venv venv
-source venv/bin/activate
 pip install -r requirements.txt
 
 ## Konfiguracja
