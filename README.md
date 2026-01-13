@@ -29,14 +29,14 @@ pip install -r requirements.txt
 ## Konfiguracja
 
 Utwórz plik .env:
-
+```
 TG_BOT_TOKEN=TU_TOKEN_Z_BOTFATHER
 RAG_K=3
 RAG_CTX=1500
 OLLAMA_HOST=http://127.0.0.1:11434
 OLLAMA_EMBED=embeddinggemma
 OLLAMA_LLM=gemma2:2b
-
+```
 
 ## API
 
